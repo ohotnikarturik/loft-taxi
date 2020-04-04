@@ -1,0 +1,11 @@
+.nav-bar-list {
+  display: flex;
+}
+
+.nav-bar-item {
+  margin-left: 40px;
+}
+
+.nav-bar-item {
+  list-style: none;
+}
