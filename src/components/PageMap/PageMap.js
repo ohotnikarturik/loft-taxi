@@ -1,7 +1,7 @@
 import React from "react";
 import './PageMap.css';
-import Header from "../Header/Header";
-import EnterCard from "../EnterCard/EnterCard";
+import Header from "../Header";
+import EnterCard from "../EnterCard";
 
 const PageMap = ({changePage}) => {
   return (

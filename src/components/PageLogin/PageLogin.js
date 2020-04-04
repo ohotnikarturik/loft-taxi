@@ -1,7 +1,7 @@
 import React from "react";
 import './PageLogin.css';
-import Logo from "../Logo/Logo";
-import FormLogin from "../FormLogin/FormLogin";
+import Logo from "../Logo";
+import FormLogin from "../FormLogin";
 
 const PageLogin = ({changePage}) => {
   return (

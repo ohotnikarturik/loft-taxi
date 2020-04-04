@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 import 'normalize.css'
 import './App.css';
-import PageMap from "../PageMap/PageMap";
-import PageProfile from "../PageProfile/PageProfile";
-import PageLogin from "../PageLogin/PageLogin";
-import PageSignUp from "../PageSignUp/PageSignUp";
+import PageMap from "../PageMap";
+import PageProfile from "../PageProfile";
+import PageLogin from "../PageLogin";
+import PageSignUp from "../PageSignUp";
 
 export default class App extends Component {
 
@@ -29,10 +29,6 @@ export default class App extends Component {
         return <PageLogin changePage={this.changePage}/>;
       case 'sign':
         return <PageSignUp changePage={this.changePage}/>;
-      case 'Sign Up':
-        return <PageSignUp changePage={this.changePage}/>;
-      case 'Come In':
-        return <PageLogin changePage={this.changePage}/>;
       default:
         return page;
     }

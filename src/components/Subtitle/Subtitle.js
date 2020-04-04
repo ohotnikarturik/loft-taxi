@@ -5,8 +5,8 @@ export default class Subtitle extends Component {
 
   onChangeForm = (subtitleName) => {
     subtitleName === 'Sign Up' ?
-        this.props.changePage('Sign Up') :
-        this.props.changePage('Come In')
+        this.props.changePage('sign') :
+        this.props.changePage('login')
   };
 
   render() {

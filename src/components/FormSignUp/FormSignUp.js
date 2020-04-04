@@ -1,7 +1,7 @@
 import React from "react";
 import './FormSignUp.css';
-import Title from "../Title/Title";
-import Subtitle from "../Subtitle/Subtitle";
+import Title from "../Title";
+import Subtitle from "../Subtitle";
 
 const FormSignUp = ({changePage}) => {
 

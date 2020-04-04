@@ -1,7 +1,7 @@
 import React from "react";
 import './PageProfile.css';
-import Header from "../Header/Header";
-import FormProfile from "../FormProfile/FormProfile";
+import Header from "../Header";
+import FormProfile from "../FormProfile";
 
 const PageProfile = ({changePage}) => {
   return (
