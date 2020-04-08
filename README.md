@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 ### Install: npm i normalize.css
 ### Install: npm i eslint
+=======
+## Install: npm i normalize.css
+## Install: npm i eslint
+>>>>>>> e7d9ad22a41d2f9e32910d962a522dbb23765c7e
 ----------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
