@@ -16,7 +16,7 @@ const FormSignUp = ({changePage}) => {
           </div>
           <div className='form-sign-input'>
             <input className='input-sign'
-                   type="text"
+                   type="email"
                    placeholder='E-mail Address*'/>
           </div>
           <div className='form-sign-input form-sign-inputs'>
@@ -29,7 +29,7 @@ const FormSignUp = ({changePage}) => {
           </div>
           <div className='form-sign-input'>
             <input className='input-sign'
-                   type="text"
+                   type="password"
                    placeholder='Password*'/>
           </div>
           <div className='form-sign-button'>

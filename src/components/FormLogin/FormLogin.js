@@ -6,26 +6,26 @@ import Subtitle from "../Subtitle";
 const FormLogin = ({changePage}) => {
   return (
       <div className='form-login'>
-        <Title title={'Log In'}/>
+        <Title title={'Log In'} />
         <form onSubmit={() => changePage('map')} id='form-login'>
           <div className='form-login-subtitle'>
             <Subtitle changePage={changePage}
                       subtitle={'New User?'}
-                      subtitleLink={'Sign Up'}/>
+                      subtitleLink={'Sign Up'} />
           </div>
           <div className='form-login-input'>
             <input className='input-login'
                    type="text"
-                   placeholder='User name*'/>
+                   placeholder='User name*' />
           </div>
           <div className='form-login-input'>
             <input className='input-login'
-                   type="text"
-                   placeholder='Password*'/>
+                   type="password"
+                   placeholder='Password*' />
           </div>
           <div className='form-login-button'>
             {/*<Button onClick={()=> changePage('map') label={'Log In'}/>*/}
-            <input className='button' type='submit' value='Come In'/>
+            <input className='button' type='submit' value='Come In' />
           </div>
         </form>
       </div>
