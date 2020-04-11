@@ -1,0 +1,24 @@
+.subtitle-block {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  color: var(--black);
+  font-size: 17px;
+}
+
+.subtitle-link {
+  color: var(--blue);
+  font-size: 17px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all .3s;
+  border-bottom: 2px solid var(--white);
+  font-weight: bold;
+}
+
+.subtitle-link:hover {
+  border-bottom: 2px solid var(--blue);
+
+}
